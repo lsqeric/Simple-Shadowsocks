@@ -1,9 +1,9 @@
 public class Config {
-    private int localPort = 1089;
-    private String remoteAddress = "13.230.233.193"; //
-    private int remotePort = 33189;
+    private int localPort = 1089; 
+    private String remoteAddress = "Your Remote Server Address"; 
+    private int remotePort = 443; // Replace with your remote server's port
     private String method = "aes-256-cfb";
-    private String password = "Authorware0922";
+    private String password = "xxxxxxxxxx"; // Replace with your remote server's password
 
     private static volatile Config config;
 
